@@ -1,39 +1,39 @@
 {
-  "type": "object",
-  "id": "#pvalue",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/base.json"
-    },
-    {
-      "properties": {
-        "pvalue": {
-          "type": "object",
-          "properties": {
-            "value": {
-              "type": "number",
-              "minimum": 0,
-              "maximum": 1
-            },
-            "method": {
-              "type": "object",
-              "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/method.json"
-            }
-          },
-          "additionalProperties": false,
-          "required": [
-            "value",
-            "method"
+    "type": "object",
+    "id": "#pvalue",
+    "allOf": [
+        {
+            "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/base.json"
+        },
+        {
+            "properties": {
+        "type": {
+          "type" : "string",          
+          "enum": [
+            "pvalue"
           ]
+        },            	    
+                "value": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                },
+                "method": {
+                    "type": "object",
+                    "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/method.json"
+                }
+            }
         }
-      }
-    }
-  ],
-  "properties": {
-    "pvalue": {}
-  },
-  "required": [
-    "pvalue"
-  ],
-  "additionalProperties": false
+    ],
+    "properties": {
+        "value": {},
+        "method": {},
+        "type" : {}
+    },
+    "required": [
+        "value",
+        "method",
+        "type"
+    ],
+    "additionalProperties": false
 }

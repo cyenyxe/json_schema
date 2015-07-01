@@ -3,7 +3,7 @@
   "title": "drug_mechanism_of_action_evidence",
   "description": "Mechanism of action evidence linking gene/protein to drug",
   "type": "object",
-  "version": "1.2",
+  "version": "1.2.1",
   "allOf": [
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json"
@@ -42,7 +42,7 @@
     }
   ],
   "properties": {
-    "association_score": {},
+    "resource_score": {},
     "unique_experiment_reference": {},
     "provenance_type": {},
     "is_associated": {},
@@ -53,7 +53,7 @@
     "urls": {}
   },
   "required": [
-    "association_score",
+    "resource_score",
     "provenance_type",
     "is_associated",
     "date_asserted",

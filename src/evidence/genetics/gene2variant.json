@@ -3,7 +3,7 @@
   "title": "target_snp_evidence",
   "description": "Evidence linking target to SNP",
   "type": "object",
-  "version": "1.2",
+  "version": "1.2.1",
   "allOf": [
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json"
@@ -2272,7 +2272,7 @@
     }
   ],
   "properties": {
-    "association_score": {},
+    "resource_score": {},
     "provenance_type": {},
     "unique_experiment_reference": {},
     "is_associated": {},
@@ -2282,7 +2282,7 @@
     "functional_consequence": {}
   },
   "required": [
-    "association_score",
+    "resource_score",
     "provenance_type",
     "is_associated",
     "date_asserted",

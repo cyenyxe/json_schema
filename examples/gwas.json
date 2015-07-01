@@ -1,15 +1,15 @@
 {
-    "sourceID": "European Variation Archive",
-    "validated_against_schema_version": "1.2",
+    "sourceID": "gwas",
+    "validated_against_schema_version": "1.2.1",
     "access_level" : "public",
     "unique_association_fields": {
         "gene": "ENSG00000110395",
         "clinvarAccession": "http://identifiers.org/clinvar.record/RCV000038347",
         "phenotype": "http://identifiers.org/orphanet/648"
     },
-    "label": "genetics_evidence_string",
+    "type": "genetic_association",
     "target": {
-        "target_type": "http://identifiers.org/cttv.target/gene",
+        "target_type": "http://identifiers.org/cttv.target/gene_evidence",
         "activity": "http://identifiers.org/cttv.activity/predicted_damaging",
         "id": [
             "http://identifiers.org/ensembl/ENSG00000110395"
@@ -28,23 +28,13 @@
     },
     "evidence": {
 
-        "association_score": {
-            "probability": {
-                "value": 1,
-                "method": {
-                    "description": "custom probability calculation"
-                }
-            }
-        },
-
         "gene2variant": {
-            "association_score": {
-                "probability" : {
+            "resource_score": {
                     "value": 0.77,
                     "method": {
                         "description": "Probability of gene-SNP assignment by mapping software"
-                    }
-                }
+                    },
+                    "type":"probability"
             },
             "provenance_type": {
                 "database": {
@@ -76,14 +66,15 @@
             ]
         },
         "variant2disease": {
-            "association_score": {
-                "pvalue": {
+            "gwas_sample_size" : 100,
+            "gwas_panel_resolution" : 10000,
+            "resource_score": {
                     "value": 0.25,
                     "method": {
                         "description": "ClinVar star score divided by 4.0",
                         "url": "http://methodexplanation.org/"
-                    }
-                }
+                    },
+                    "type":"pvalue"
             },
             "unique_experiment_reference" : "http://europepmc.org/abstract/MED/20301303",
             "provenance_type": {
