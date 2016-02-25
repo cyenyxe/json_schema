@@ -1,6 +1,6 @@
 {
     "type": "object",
-    "id": "#summed_total",
+    "id": "summed_total",
     "allOf": [
         {
             "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/base.json"

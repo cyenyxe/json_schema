@@ -133,7 +133,7 @@
   "definitions": {
     "single_lit_reference": {
       "type": "object",
-      "id": "#single_lit_reference",
+      "id": "single_lit_reference",
       "properties": {
         "lit_id": {
           "type": "string",

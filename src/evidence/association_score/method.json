@@ -4,7 +4,7 @@
   "description": "Method details",
   "type": "object",
   "version": "1.2.2",
-  "id":"#method",
+  "id":"method",
   "properties": {
     "description": {
       "type": "string"
