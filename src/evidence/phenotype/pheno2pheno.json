@@ -7,12 +7,12 @@
   "version": "1.2.2",
   "allOf": [
     {
-      "$ref": "evidence/base.json"
+      "$ref": "../base.json"
     },
     {
       "properties": {
         "allOf": {
-          "$ref": "evidence/base.json"
+          "$ref": "../base.json"
         },
         "evidence_codes": {
           "type": "array",
@@ -30,7 +30,7 @@
           "type": "array",
           "items": {
             "type": "object",
-            "$ref": "evidence/linkout/linkout.json"
+            "$ref": "../linkout/linkout.json"
           }
         }
       }

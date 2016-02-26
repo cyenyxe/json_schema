@@ -7,7 +7,7 @@
   "version": "1.2.2",
   "allOf": [
     {
-      "$ref": "evidence/base.json"
+      "$ref": "base.json"
     },
     {
       "properties": {
@@ -25,7 +25,7 @@
         },
         "literature_ref": {
           "type": "object",
-          "$ref": "evidence/base.json#base_evidence/definitions/single_lit_reference"
+          "$ref": "base.json#definitions/single_lit_reference"
         }
       }
     }

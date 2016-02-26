@@ -7,7 +7,7 @@
   "version": "1.2.2",
   "allOf": [
     {
-      "$ref": "evidence/base.json"
+      "$ref": "../base.json"
     },
     {
       "properties": {
@@ -36,7 +36,7 @@
           "description": "List of human phenotypes for this model",
           "items": {
             "type": "object",
-            "$ref": "bioentity/phenotype.json"
+            "$ref": "../../bioentity/phenotype.json"
           },
           "minItems": 1
         },
@@ -45,7 +45,7 @@
           "description": "List of biomodel phenotypes for this model",
           "items": {
             "type": "object",
-            "$ref": "bioentity/phenotype.json"
+            "$ref": "../../bioentity/phenotype.json"
           },
           "minItems": 1
         },
@@ -53,7 +53,7 @@
           "type": "array",
           "items": {
             "type": "object",
-            "$ref": "evidence/linkout/linkout.json"
+            "$ref": "../linkout/linkout.json"
           }
         }
       }

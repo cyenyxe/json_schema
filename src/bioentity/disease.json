@@ -7,7 +7,7 @@
   "version": "1.2.2",
   "allOf": [
     {
-      "$ref": "bioentity/base.json"
+      "$ref": "base.json"
     },
     {
       "properties": {
