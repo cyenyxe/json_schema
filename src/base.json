@@ -51,12 +51,13 @@
           "type": "array",
           "items": {
             "type": "object",
-            "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json#base_evidence/definitions/single_lit_reference"
+            "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-corrections/src/evidence/base.json#base_evidence/definitions/single_lit_reference"
           },
           "minItems": 1,
           "uniqueItems": true
         }
       }
+    }
   },
   "import_remote_schemas": [
     { "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-corrections/src/bioentity/base.json" }
