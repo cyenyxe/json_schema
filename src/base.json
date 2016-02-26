@@ -24,7 +24,7 @@
       "description": "The CTTV-JSON schema version number against which your data was validated",
       "type": "string",
       "enum": [
-        "1.2.1"
+        "1.2.2"
       ]
     },
     "unique_association_fields": {
@@ -43,7 +43,20 @@
       "type": "object",
       "description" : "Disease in the EFO ontology",
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-corrections/src/bioentity/disease.json"
-    }
+    },
+    "literature": {
+      "type": "object",
+      "properties": {
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json#base_evidence/definitions/single_lit_reference"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
   },
   "import_remote_schemas": [
     { "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-corrections/src/bioentity/base.json" }
