@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/association_score/method.json",
+
   "title": "Method",
   "description": "Method details",
   "type": "object",

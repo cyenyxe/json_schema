@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/phenotype/target2pheno.json",
+
   "title": "target_pheno_evidence",
   "description": "Evidence linking target to phenotype e.g. in a knockout study",
   "type": "object",

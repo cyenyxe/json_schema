@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/literature_mining.json",
+  "id": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-relative-references/src/literature_mining.json",
   "title": "Automated literature-mining based evidence string",
   "description": "Schema for target-disease evidence automatically extracted from the literature",
   "type": "object",

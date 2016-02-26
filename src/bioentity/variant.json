@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/bioentity/variant.json",
+
   "title": "Variant",
   "description": "CTTV variant model - an array of dbSNP, European structural variant (esv) or NCBI structural variant (nsv)",
   "type": "object",

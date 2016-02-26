@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/literature_curated.json",
+
   "title": "generic_evidence",
   "description": "Generic evidence linking gene/protein to disease: author-curated or computational or both",
   "type": "object",

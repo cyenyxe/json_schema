@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/phenotype/biological_model.json",
+
   "title": "Biological model",
   "description": "Evidence linking human target to animal target",
   "type": "object",

@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/association_score/pvalue.json",
+
   "allOf": [
     {
       "$ref": "base.json"

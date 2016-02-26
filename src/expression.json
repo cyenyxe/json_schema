@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/expression.json",
+  "id": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-relative-references/src/expression.json",
   "title": "Expression-based evidence strings",
   "description": "Schema for target-disease evidence using gene/protein expression experiments",
   "type": "object",

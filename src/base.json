@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/base.json",
   "title": "Target-Disease-Association",
   "description": "Schema for different types of target-disease associations used by CTTV",
   "type": "object",

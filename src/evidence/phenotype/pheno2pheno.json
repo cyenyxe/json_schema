@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/phenotype/pheno2pheno.json",
+
   "title": "pheno_pheno_evidence",
   "description": "Evidence linking phenotype to phenotype",
   "type": "object",

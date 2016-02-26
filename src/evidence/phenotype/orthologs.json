@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/phenotype/orthologs.json",
+
   "title": "Orthologous gene",
   "description": "Model orthologous gene",
   "type": "object",

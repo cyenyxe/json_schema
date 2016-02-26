@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/genetics/variant2disease.json",
+
   "title": "snp_gwas_disease_evidence",
   "description": "Evidence linking SNP to disease in a GWAS study",
   "type": "object",

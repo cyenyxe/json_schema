@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/literature_mining.json",
+
   "title": "literature_mining_evidence",
   "description": "Literature mining evidence linking gene/protein to disease",
   "type": "object",

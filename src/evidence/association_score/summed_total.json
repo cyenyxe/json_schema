@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/association_score/summed_total.json",
+
   "allOf": [
     {
       "$ref": "base.json"

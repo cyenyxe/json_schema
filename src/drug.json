@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/drug.json",
+  "id": "https://raw.githubusercontent.com/CTTV/json_schema/uniprot-schema-relative-references/src/expression.json",
   "title": "Drug-based evidence strings",
   "description": "Schema for target-disease evidence where there is drug knowledge",
   "type": "object",

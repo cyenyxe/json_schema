@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/bioentity/disease.json",
+
   "title": "CTTV disease",
   "description": "CTTV disease. This uses the EFO ontology",
   "type": "object",
