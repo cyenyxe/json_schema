@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/expression.json",
   "title": "Expression-based evidence strings",
   "description": "Schema for target-disease evidence using gene/protein expression experiments",
   "type": "object",
@@ -11,7 +12,7 @@
     {
       "properties": {
         "type": {
-          "type" : "string",          
+          "type": "string",
           "enum": [
             "rna_expression"
           ]
@@ -28,10 +29,10 @@
     "sourceID": {},
     "validated_against_schema_version": {},
     "unique_association_fields": {},
-    "access_level" :{},
+    "access_level": {},
     "target": {},
     "disease": {},
-    "literature": {},	
+    "literature": {},
     "evidence": {}
   },
   "required": [

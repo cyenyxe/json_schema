@@ -4,30 +4,30 @@
   "description": "Details about mutation",
   "type": "object",
   "version": "1.2.2",
-  "id": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/mutation/mutation.json",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/mutation/mutation.json",
   "properties": {
     "preferred_name": {
       "description": "The preferred name for this mutation, e.g. NM_005228.3(EGFR):c.2500G>T (p.Val834Leu)",
       "type": "string"
-	},
+    },
     "alternative_names": {
       "description": "A list of alternative names for this mutation, if known e.g. NC_000007.14:g.55191749G>T",
-      "type": "array",	
+      "type": "array",
       "items": {
         "type": "string"
       },
-	  "minItems": 1
-	},	
+      "minItems": 1
+    },
     "functional_consequence": {
-      "description": "sequence alteration, deletion, missense_variant, stop_gained, terminator_codon_variant, translational product variant, amino acid insertion, conservative decrease in CDS length, mutation causing uncharacterised change of translational product",	
+      "description": "sequence alteration, deletion, missense_variant, stop_gained, terminator_codon_variant, translational product variant, amino acid insertion, conservative decrease in CDS length, mutation causing uncharacterised change of translational product",
       "type": "string",
       "enum": [
         "http://purl.obolibrary.org/obo/SO_0000159",
         "http://purl.obolibrary.org/obo/SO_0001583",
         "http://purl.obolibrary.org/obo/SO_0001587",
-        "http://purl.obolibrary.org/obo/SO_0001590",			
-        "http://purl.obolibrary.org/obo/SO_1000065",			
-        "http://purl.obolibrary.org/obo/SO_0001539",			
+        "http://purl.obolibrary.org/obo/SO_0001590",
+        "http://purl.obolibrary.org/obo/SO_1000065",
+        "http://purl.obolibrary.org/obo/SO_0001539",
         "http://purl.obolibrary.org/obo/SO_0001605",
         "http://purl.obolibrary.org/obo/SO_0001825",
         "http://purl.obolibrary.org/obo/SO_0001553",
@@ -35,17 +35,17 @@
       ]
     },
     "number_samples_with_mutation_type": {
-      "description": "The number of samples for this mutation type if known",	
-	  "type": "number",
-	  "minimum": 0
-	},
-	"number_mutated_samples": {
-      "description": "The total number of samples with any type of mutation if known",	
-	  "type": "number",
-	  "minimum": 0
-	}, 
+      "description": "The number of samples for this mutation type if known",
+      "type": "number",
+      "minimum": 0
+    },
+    "number_mutated_samples": {
+      "description": "The total number of samples with any type of mutation if known",
+      "type": "number",
+      "minimum": 0
+    },
     "inheritance_pattern": {
-	  "description": "dominant (a single copy of the abnormal allele is sufficient to give rise to the disease), semi-dominant, or recessive (requiring both copies of the gene to have an abnormal allele)",
+      "description": "dominant (a single copy of the abnormal allele is sufficient to give rise to the disease), semi-dominant, or recessive (requiring both copies of the gene to have an abnormal allele)",
       "type": "string",
       "enum": [
         "dominant",

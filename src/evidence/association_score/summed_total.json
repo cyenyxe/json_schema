@@ -1,38 +1,38 @@
 {
-    "type": "object",
-    "id": "summed_total",
-    "allOf": [
-        {
-            "$ref": "evidence/association_score/base.json"
-        },
-        {
-            "properties": {
+  "type": "object",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/association_score/summed_total.json",
+  "allOf": [
+    {
+      "$ref": "evidence/association_score/base.json"
+    },
+    {
+      "properties": {
         "type": {
-          "type" : "string",          
+          "type": "string",
           "enum": [
             "summed_total"
           ]
         },
-                "value": {
-                    "type": "number",
-                    "minimum": 0,
-                    "exclusiveMinimum": true
-                },
-                "method": {
-                    "type": "object",
-                    "$ref": "evidence/association_score/method.json"
-                }
-            }
+        "value": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMinimum": true
+        },
+        "method": {
+          "type": "object",
+          "$ref": "evidence/association_score/method.json"
         }
-    ],
-    "properties": {
-        "value": {},
-        "method": {},
-        "type": {}
-    },
-    "required": [
-        "value",
-        "type"
-    ],
-    "additionalProperties": false
+      }
+    }
+  ],
+  "properties": {
+    "value": {},
+    "method": {},
+    "type": {}
+  },
+  "required": [
+    "value",
+    "type"
+  ],
+  "additionalProperties": false
 }

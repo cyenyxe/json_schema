@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/genetics/gene2variant.json",
   "title": "target_snp_evidence",
   "description": "Evidence linking target to SNP",
   "type": "object",

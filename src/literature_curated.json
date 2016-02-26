@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/literature_curated.json",
   "title": "Literature-based evidence strings",
   "description": "Schema for target-disease evidence extracted from the literature",
   "type": "object",
@@ -11,7 +12,7 @@
     {
       "properties": {
         "type": {
-          "type" : "string",
+          "type": "string",
           "enum": [
             "genetic_literature",
             "affected_pathway",
@@ -30,10 +31,10 @@
     "sourceID": {},
     "validated_against_schema_version": {},
     "unique_association_fields": {},
-    "access_level" :{},
+    "access_level": {},
     "target": {},
     "disease": {},
-    "literature": {},	
+    "literature": {},
     "evidence": {}
   },
   "required": [

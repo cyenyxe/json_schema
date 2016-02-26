@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/phenotype/pheno2disease.json",
   "title": "pheno_disease_evidence",
   "description": "Evidence linking phenotype to disease",
   "type": "object",
@@ -66,6 +67,6 @@
     },
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/base.json"
-    }    
+    }
   ]
 }

@@ -1,9 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/bioentity/target.json",
   "title": "CTTV target",
   "description": "CTTV target model. Target includes base like proteins, genes, protein complexes etc.",
   "type": "object",
-  "version": "1.2.2", 
+  "version": "1.2.2",
   "allOf": [
     {
       "$ref": "bioentity/base.json"
@@ -11,27 +12,25 @@
     {
       "properties": {
         "id": {
-          "type" : "array",
+          "type": "array",
           "items": {
             "description": "An array of ensembl or uniprot identifiers",
-            "type" : "string",
+            "type": "string",
             "pattern": "^http://identifiers.org/ensembl/ENSG[0-9]{4,}$|^http://identifiers.org/uniprot/.{4,}$"
           },
           "minItems": 1,
-          "maxItems": 1          
+          "maxItems": 1
         },
-
         "complex_members": {
-          "type" : "array",
+          "type": "array",
           "items": {
             "description": "Other protein targets that interact with the gene or protein",
-            "type" : "string",
+            "type": "string",
             "pattern": "^http://identifiers.org/ensembl/ENSG[0-9]{4,}$|^http://identifiers.org/uniprot/.{4,}$"
           },
           "minItems": 1,
-          "uniqueItems" : true
+          "uniqueItems": true
         },
-        
         "complex_type": {
           "type": "string",
           "enum": [
@@ -45,7 +44,6 @@
           ],
           "description": "Type of target"
         },
-        
         "target_type": {
           "type": "string",
           "enum": [
@@ -103,8 +101,8 @@
   ],
   "properties": {
     "id": {},
-    "complex_members" : {},
-    "complex_type" : {},
+    "complex_members": {},
+    "complex_type": {},
     "target_type": {},
     "target_class": {},
     "target_name": {},
@@ -115,9 +113,13 @@
     "target_type",
     "activity"
   ],
-  "dependencies" : {
-  	"complex_members" : ["complex_type"],
-  	"complex_type" : ["complex_members"]
+  "dependencies": {
+    "complex_members": [
+      "complex_type"
+    ],
+    "complex_type": [
+      "complex_members"
+    ]
   },
   "additionalProperties": false
 }

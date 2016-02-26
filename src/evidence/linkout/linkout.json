@@ -4,7 +4,7 @@
   "description": "URL linkout",
   "version": "1.2.2",
   "type": "object",
-  "id": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/linkout/linkout.json",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/linkout/linkout.json",
   "properties": {
     "nice_name": {
       "type": "string"

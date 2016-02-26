@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/drug/target2drug.json",
   "title": "drug_mechanism_of_action_evidence",
   "description": "Mechanism of action evidence linking gene/protein to drug",
   "type": "object",

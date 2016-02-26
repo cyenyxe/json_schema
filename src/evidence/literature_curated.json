@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/literature_curated.json",
   "title": "generic_evidence",
   "description": "Generic evidence linking gene/protein to disease: author-curated or computational or both",
   "type": "object",
@@ -11,7 +12,7 @@
     {
       "properties": {
         "evidence_codes": {
-          "description": "An array of evidence codes",		
+          "description": "An array of evidence codes",
           "type": "array",
           "items": {
             "type": "string",
@@ -32,7 +33,7 @@
             "type": "object",
             "$ref": "evidence/mutation/mutation.json"
           },
-		  "minItems": 1
+          "minItems": 1
         },
         "urls": {
           "type": "array",
@@ -81,5 +82,5 @@
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/base.json"
     }
-  ]  
+  ]
 }

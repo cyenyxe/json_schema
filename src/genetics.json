@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/genetics.json",
   "title": "Genetics-based evidence strings",
   "description": "Schema for target-disease evidence where there is genetics / variation knowledge",
   "type": "object",
@@ -11,7 +12,7 @@
     {
       "properties": {
         "type": {
-          "type" : "string",
+          "type": "string",
           "enum": [
             "genetic_association"
           ]
@@ -46,10 +47,10 @@
     "sourceID": {},
     "validated_against_schema_version": {},
     "unique_association_fields": {},
-    "access_level" :{},
+    "access_level": {},
     "target": {},
     "disease": {},
-    "literature": {},	
+    "literature": {},
     "evidence": {},
     "variant": {}
   },
@@ -83,7 +84,7 @@
     },
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/association_score/summed_total.json"
-    },    
+    },
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/linkout/linkout.json"
     },

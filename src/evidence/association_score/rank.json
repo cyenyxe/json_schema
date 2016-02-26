@@ -2,17 +2,16 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Rank",
   "description": "Rank",
-  "id": "rank",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/association_score/rank.json",
   "type": "object",
   "version": "1.2.2",
   "properties": {
-        "type": {
-          "type" : "string",          
-          "enum": [
-            "rank"
-          ]
-        },  	  
-  	  
+    "type": {
+      "type": "string",
+      "enum": [
+        "rank"
+      ]
+    },
     "position": {
       "type": "number",
       "minimum": 1

@@ -4,7 +4,7 @@
   "description": "Base schema for CTTV evidence",
   "version": "1.2.2",
   "type": "object",
-  "id": "base_evidence",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/base.json",
   "properties": {
     "unique_experiment_reference": {
       "type": "string",
@@ -196,14 +196,13 @@
               "section"
             ]
           },
-          "minItems" : 1
+          "minItems": 1
         }
       },
-      
-     "required": [
-      "lit_id"
-    ],
-    "additionalProperties": false
+      "required": [
+        "lit_id"
+      ],
+      "additionalProperties": false
     }
   },
   "import_remote_schemas": [

@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/base.json",
   "title": "Target-Disease-Association",
   "description": "Schema for different types of target-disease associations used by CTTV",
   "type": "object",
@@ -10,16 +11,14 @@
       "description": "A source ID (database or study ID) to help identify who this data is from.",
       "pattern": "^[a-z0-9_]+$"
     },
-    
     "access_level": {
       "description": "Choose public as default; private is for internal datasets",
       "type": "string",
       "enum": [
         "public",
         "private"
-      ]      
+      ]
     },
-    
     "validated_against_schema_version": {
       "description": "The CTTV-JSON schema version number against which your data was validated",
       "type": "string",
@@ -27,7 +26,6 @@
         "1.2.2"
       ]
     },
-
     "unique_association_fields": {
       "description": "String based key-value properties that must uniquely identify each JSON object in your data.",
       "type": "object",
@@ -35,19 +33,16 @@
         "type": "string"
       }
     },
-
-    "target" : {
+    "target": {
       "type": "object",
-      "description" : "Target in CTTV's target ontology",
+      "description": "Target in CTTV's target ontology",
       "$ref": "bioentity/target.json"
     },
-
-    "disease" : {
+    "disease": {
       "type": "object",
-      "description" : "Disease in the EFO ontology",
+      "description": "Disease in the EFO ontology",
       "$ref": "bioentity/disease.json"
     },
-
     "literature": {
       "type": "object",
       "properties": {
@@ -64,15 +59,15 @@
     }
   },
   "import_remote_schemas": [
-    { 
-	  "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/bioentity/base.json" 
-	},
+    {
+      "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/bioentity/base.json"
+    },
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/linkout/linkout.json"
     },
-	{
-		"$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json"
-	},
+    {
+      "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json"
+    },
     {
       "$ref": "https://raw.githubusercontent.com/CTTV/json_schema/master/src/evidence/base.json#/single_lit_reference"
     }

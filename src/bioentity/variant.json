@@ -1,41 +1,42 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Variant",
-    "description": "CTTV variant model - an array of dbSNP, European structural variant (esv) or NCBI structural variant (nsv)",
-    "type": "object",
-    "version": "1.2.2",
-    "allOf": [
-        {
-            "$ref": "bioentity/base.json"
-        },
-        {
-            "properties": {
-                "id": {
-                    "type": "array",
-                    "items": {
-                        "description": "An array of variant identifiers",
-                        "type": "string",
-                        "pattern": "^http://identifiers.org/dbsnp/rs[0-9]+|esv[0-9]+|nsv[0-9]+$"
-                    }
-                },
-                "type": {
-                    "type": "string",
-                    "enum": [
-                        "snp single",
-                        "snp snp interaction",
-                        "structural variant"
-                    ]
-                }
-            }
-        }
-    ],
-    "properties": {
-        "id": {},
-        "type": {}
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/bioentity/variant.json",
+  "title": "Variant",
+  "description": "CTTV variant model - an array of dbSNP, European structural variant (esv) or NCBI structural variant (nsv)",
+  "type": "object",
+  "version": "1.2.2",
+  "allOf": [
+    {
+      "$ref": "bioentity/base.json"
     },
-    "required": [
-        "id",
-        "type"
-    ],
-    "additionalProperties": false
+    {
+      "properties": {
+        "id": {
+          "type": "array",
+          "items": {
+            "description": "An array of variant identifiers",
+            "type": "string",
+            "pattern": "^http://identifiers.org/dbsnp/rs[0-9]+|esv[0-9]+|nsv[0-9]+$"
+          }
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "snp single",
+            "snp snp interaction",
+            "structural variant"
+          ]
+        }
+      }
+    }
+  ],
+  "properties": {
+    "id": {},
+    "type": {}
+  },
+  "required": [
+    "id",
+    "type"
+  ],
+  "additionalProperties": false
 }

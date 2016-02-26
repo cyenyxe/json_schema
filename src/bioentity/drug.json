@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/bioentity/drug.json",
   "title": "Drug",
   "description": "CTTV drug model",
   "type": "object",
@@ -11,9 +12,9 @@
     {
       "properties": {
         "id": {
-          "type" : "array",
+          "type": "array",
           "items": {
-            "type" : "string",
+            "type": "string",
             "description": "An array of drug identifiers",
             "pattern": "^http://identifiers.org/chembl.compound/CHEMBL[0-9]+$|^http://private/.+$"
           }

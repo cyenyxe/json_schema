@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "file:///home/eddturner/working/cttv/repos/json_schema/src/evidence/phenotype/biological_model.json",
   "title": "Biological model",
   "description": "Evidence linking human target to animal target",
   "type": "object",
@@ -29,7 +30,7 @@
         "model_id": {
           "type": "string",
           "description": "Internal identifier for the biological model"
-        },        
+        },
         "allelic_composition": {
           "type": "string",
           "description": "Animal model allelic composition"
@@ -43,28 +44,28 @@
           "description": "List of allele identifiers for this model separated by |"
         },
         "zygosity": {
-            "type": "string",
-            "enum": [
-              "hom",
-              "het",
-              "hem",
-              "oth"
-            ]
-          },
-          "species": {
-            "type": "string",
-            "enum": [
-              "mouse",
-              "human",
-              "rat",
-              "zebrafish",
-              "dog"
-            ]
-          },       
+          "type": "string",
+          "enum": [
+            "hom",
+            "het",
+            "hem",
+            "oth"
+          ]
+        },
+        "species": {
+          "type": "string",
+          "enum": [
+            "mouse",
+            "human",
+            "rat",
+            "zebrafish",
+            "dog"
+          ]
+        },
         "phenotypes": {
-          "type" : "array",
+          "type": "array",
           "description": "List of phenotypes for this model",
-          "items": {          
+          "items": {
             "type": "object",
             "$ref": "bioentity/phenotype.json"
           },
