@@ -3,7 +3,7 @@
   "title": "Target-Disease-Association",
   "description": "Schema for different types of target-disease associations used by CTTV",
   "type": "object",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "properties": {
     "sourceID": {
       "type": "string",
