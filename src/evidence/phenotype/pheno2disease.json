@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "pheno_disease_evidence",
   "description": "Evidence linking phenotype to disease",
   "type": "object",

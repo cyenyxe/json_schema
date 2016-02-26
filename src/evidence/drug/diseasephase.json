@@ -4,7 +4,6 @@
   "description": "Clinical study phase information",
   "type": "object",
   "version": "1.2.2",
-
   "properties": {
     "numeric_index": {
       "description": "An integer indicating the position of this study phase. Higher the number = more advanced phase.",

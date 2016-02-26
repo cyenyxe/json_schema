@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "snp_gwas_disease_evidence",
   "description": "Evidence linking SNP to disease in a GWAS study",
   "type": "object",

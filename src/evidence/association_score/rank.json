@@ -2,7 +2,6 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Rank",
   "description": "Rank",
-
   "type": "object",
   "version": "1.2.2",
   "properties": {

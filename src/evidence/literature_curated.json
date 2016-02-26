@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "generic_evidence",
   "description": "Generic evidence linking gene/protein to disease: author-curated or computational or both",
   "type": "object",

@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "literature_mining_evidence",
   "description": "Literature mining evidence linking gene/protein to disease",
   "type": "object",

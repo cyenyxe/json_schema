@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "drug_mechanism_of_action_evidence",
   "description": "Mechanism of action evidence linking gene/protein to drug",
   "type": "object",

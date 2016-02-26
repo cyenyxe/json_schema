@@ -4,7 +4,6 @@
   "description": "Base schema for CTTV evidence",
   "version": "1.2.2",
   "type": "object",
-
   "properties": {
     "unique_experiment_reference": {
       "type": "string",

@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "target_pheno_evidence",
   "description": "Evidence linking target to phenotype e.g. in a knockout study",
   "type": "object",

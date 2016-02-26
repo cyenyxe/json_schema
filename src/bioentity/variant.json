@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "Variant",
   "description": "CTTV variant model - an array of dbSNP, European structural variant (esv) or NCBI structural variant (nsv)",
   "type": "object",

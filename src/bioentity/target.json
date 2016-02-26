@@ -1,6 +1,5 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-
   "title": "CTTV target",
   "description": "CTTV target model. Target includes base like proteins, genes, protein complexes etc.",
   "type": "object",
