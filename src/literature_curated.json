@@ -33,7 +33,8 @@
     "access_level" :{},
     "target": {},
     "disease": {},
-    "evidence": {}
+    "evidence": {},
+    "literature": {}
   },
   "required": [
     "type",
